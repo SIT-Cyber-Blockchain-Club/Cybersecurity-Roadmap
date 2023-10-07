@@ -1,13 +1,16 @@
 # Cybersecurity-Roadmap
 
----
+
 ## Index
-1. Courses
-2. Submissions
-3. 
+
+1. [Linux](#1-linux-operating-system)
+2. [Computer Networks](#2-networkingosi)
+3. [Security Features and Vulnerabilities](#3-security-features-and-vulnerabilities)
+4. [Encryption, Authentication, and Access Control](#4-encryption-authentication-and-access-control)
+5. [Metasploit and Wireshark](#5-metasploit-and-wireshark)
+6. [SQL Injection and XSS](#6-sql-injection-and-xss))
+
 ---
-
-
 
 ### 1. Linux Operating System
 
@@ -57,7 +60,7 @@
   <li>Learn the commands</li>
 </ol>
 
-### 4. Metasploit and Wireshark
+### 5. Metasploit and Wireshark
 
 - Metasploit is the world’s leading open-source penetrating framework used by security engineers as a penetration testing system and a development platform that allows to create security tools and exploits. The framework makes hacking simple for both attackers and defenders.
 - Wireshark is a software tool used to monitor the network traffic through a network interface. It is the most widely used network monitoring tool today. Wireshark is loved equally by system administrators, network engineers, network enthusiasts, network security professionals and black hat hackers. 
@@ -71,7 +74,7 @@ The extent of its popularity is such, that experience with Wireshark is consider
   <li>Learn the commands</li>
 </ol>
 
-### 4. SQL Injection, XSS
+### 6. SQL Injection and XSS
 
 - SQL injection, also known as SQLI, is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed. This information may include any number of items, including sensitive company data, user lists or private customer details.
 - Cross-site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
