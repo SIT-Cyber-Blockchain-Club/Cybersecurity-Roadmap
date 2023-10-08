@@ -8,32 +8,46 @@
 3. [Security Features and Vulnerabilities](#3-security-features-and-vulnerabilities)
 4. [Encryption, Authentication, and Access Control](#4-encryption-authentication-and-access-control)
 5. [Metasploit and Wireshark](#5-metasploit-and-wireshark)
-6. [SQL Injection and XSS](#6-sql-injection-and-xss)
+6. >Encryption (Anonsurf) and more
+7. [SQL Injection and XSS](#6-sql-injection-and-xss)
+8. >Free Courses and Certifications
+9. >Controlled Simulation Labs to try pentesting
 
 ---
+
+### Note
+>SCREENSHOTS INFORMATION
+
 
 ### 1. Linux Operating System
 
 - The operating system Linux is one of the widely used operating system, community-developed operating system (OS) for computers, servers, mainframes, mobile devices and embedded devices. It is supported on almost every major computer platform, including x86, ARM and SPARC, making it one of the most widely supported operating systems.
 
-[Click here for the video](https://m.youtube.com/watch?v=iwolPf6kN-k&t=3530s)
+- **Resources**
+  - [Video Resource: Introduction to Linux & Terminal Commands by Kunal Kushwaha](https://m.youtube.com/watch?v=iwolPf6kN-k&t=3530s)
+  - [Linux Commands Cheat Sheet by Linux Training Academy](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)
+  - >Resource for apache servers, postGRE, proxies
+  - >Making scripts and saving in /usr/ and path
 
-**Tasks:**
-<ol>
-  <li>Virtual Machine - Kali/Parrot</li>
-  <li>Commands</li>
-</ol>
+- **Tasks:**
+  - Upload a report about your Linux System, including device specification, network information, and drivers using the Terminal
+  - Commands for file management and implement a few commands from the shared resources on an application based task of your choice.
+  - >More Tasks
 
 ### 2. Networking/OSI
 
 - The working of Computer Networks can be simply defined as rules or protocols which help in sending and receiving data via the links which allow Computer networks to communicate. Each device has an IP Address, that helps in identifying a device.
-[Click here for the content](https://www.freecodecamp.org/news/tag/computer-networking/)
 
-**Tasks:**
-<ol>
-  <li>Understand the theory</li>
-  <li>Commands</li>
-</ol>
+- **Resources**
+  - >Resource 1
+  - >Resource 2 
+
+[>ADD TO EXTRA](https://www.freecodecamp.org/news/tag/computer-networking/)
+
+- **Tasks:**
+  - Upload a report showcasing your usage of Wireshark, capture a few HTTP files and analyse them.
+  - See how GET/Request Parameters are processed in insecure communications.
+  - >More Tasks
 
 ### 3. Security Features and Vulnerabilities
 
@@ -90,12 +104,8 @@ The extent of its popularity is such, that experience with Wireshark is consider
 
 
 
-
-
 ## Submissions
 1. Fork this repo
 2. Fetch changes
 3. Make changes, upload your tasks completed according to the tasks mentioned, in PDF, or script format
 4. Make a pull request with relevant commit message
-
-
