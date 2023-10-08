@@ -8,7 +8,7 @@
 3. [Security Features and Vulnerabilities](#3-security-features-and-vulnerabilities)
 4. [Encryption, Authentication, and Access Control](#4-encryption-authentication-and-access-control)
 5. [Metasploit and Wireshark](#5-metasploit-and-wireshark)
-6. [SQL Injection and XSS](#6-sql-injection-and-xss))
+6. [SQL Injection and XSS](#6-sql-injection-and-xss)
 
 ---
 
