@@ -26,8 +26,8 @@
 - **Resources**
   - [Video Resource: Introduction to Linux & Terminal Commands by Kunal Kushwaha](https://m.youtube.com/watch?v=iwolPf6kN-k&t=3530s)
   - [Linux Commands Cheat Sheet by Linux Training Academy](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)
-  - >Resource for apache servers, postGRE, proxies
-  - >Making scripts and saving in /usr/ and path
+  - [Apache, postgresql, and proxies](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension)
+  - [Scripting](https://www.guru99.com/introduction-to-shell-scripting.html)
 
 - **Tasks:**
   - Upload a report about your Linux System, including device specification, network information, and drivers using the Terminal
@@ -74,7 +74,9 @@
 <ol>
   <li>Try to use Burpsuite and learn how different tools can be used for this purpose</li>
   <li>Learn the commands</li>
+  <li>Upload the screenshot of the solved lab here</li>
 </ol>
+
 **labs to solve**
 - [lab 1](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
 - [lab 2](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter/)
