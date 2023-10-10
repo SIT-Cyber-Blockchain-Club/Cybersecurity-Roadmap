@@ -39,15 +39,17 @@
 - The working of Computer Networks can be simply defined as rules or protocols which help in sending and receiving data via the links which allow Computer networks to communicate. Each device has an IP Address, that helps in identifying a device.
 
 - **Resources**
-  - >Resource 1
-  - >Resource 2 
+  - [Video resource by Dion Training](https://www.youtube.com/watch?v=QcS0ElIztHE)
+  - [Blog by Karthikeyan Natarajan on Medium](https://medium.com/@cryptushack/quick-intro-to-open-systems-interconnection-osi-model-8cfe2cec7ae3) 
 
-[>ADD TO EXTRA](https://www.freecodecamp.org/news/tag/computer-networking/)
+-**Materials extra to explore**
+ - [TCP and UDP protocols](https://www.freecodecamp.org/news/tag/computer-networking/)
+ - [Configure your network in kali machine and learn about them](https://www.techtarget.com/searchsecurity/feature/How-to-configure-and-customize-Kali-Linux)
 
 - **Tasks:**
   - Upload a report showcasing your usage of Wireshark, capture a few HTTP files and analyse them.
   - See how GET/Request Parameters are processed in insecure communications.
-  - >More Tasks
+  - In the same report mention some of the networking commands you have read.
 
 ### 3. Security Features and Vulnerabilities
 
@@ -58,14 +60,14 @@
 <ol>
   <li>Understand the overview and concept</li>
   <li>Try to find out the tools used for these purposes</li>
+  <li>Make a list of the tools and solve access control labs using burpsuite (atleast 2)</li>
 </ol>
-
 ### 4. Encryption, Authentication, and Access Control.
 
 - Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it. Decryption is the process of converting an encrypted message back to its original (readable) format. The original message is called the plaintext message.
 - authentication is the process of verifying who a user is, while authorization is the process of verifying what they have access to. Authentication collects information from the user or entity in the form of text (e.g., passwords), unstructured data (e.g., image of the user's face), or an access token. Authorization requires a token proving that the entity is authenticated and additional information about the entity to apply access rules
-1. [Access-Control](https://portswigger.net/blog)
-2. [Authentication](https://portswigger.net/web-security/authentication)
+1. [Access-Control](https://www.prplbx.com/resources/blog/broken-access-control/)
+2. [Authentication](https://auth0.com/blog/what-is-broken-authentication/)
 3. [Encryption/Decryption](https://portswigger.net/blog/breaking-encrypted-data-using-burp)
 
 **Tasks:**
@@ -73,6 +75,9 @@
   <li>Try to use Burpsuite and learn how different tools can be used for this purpose</li>
   <li>Learn the commands</li>
 </ol>
+**labs to solve**
+- [lab 1](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
+- [lab 2](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter/)
 
 ### 5. Metasploit and Wireshark
 
