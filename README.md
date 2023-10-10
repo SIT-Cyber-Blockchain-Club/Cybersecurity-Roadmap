@@ -26,7 +26,7 @@
 - **Resources**
   - [Video Resource: Introduction to Linux & Terminal Commands by Kunal Kushwaha](https://m.youtube.com/watch?v=iwolPf6kN-k&t=3530s)
   - [Linux Commands Cheat Sheet by Linux Training Academy](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)
-  - [Apache, postgresql, and proxies](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension)
+  - [Apache, PostgreSQL, and Proxies](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension)
   - [Scripting](https://www.guru99.com/introduction-to-shell-scripting.html)
 
 - **Tasks:**
@@ -42,7 +42,7 @@
   - [Video resource by Dion Training](https://www.youtube.com/watch?v=QcS0ElIztHE)
   - [Blog by Karthikeyan Natarajan on Medium](https://medium.com/@cryptushack/quick-intro-to-open-systems-interconnection-osi-model-8cfe2cec7ae3) 
 
--**Materials extra to explore**
+- **Materials extra to explore**
  - [TCP and UDP protocols](https://www.freecodecamp.org/news/tag/computer-networking/)
  - [Configure your network in kali machine and learn about them](https://www.techtarget.com/searchsecurity/feature/How-to-configure-and-customize-Kali-Linux)
 
@@ -62,6 +62,7 @@
   <li>Try to find out the tools used for these purposes</li>
   <li>Make a list of the tools and solve access control labs using burpsuite (atleast 2)</li>
 </ol>
+
 ### 4. Encryption, Authentication, and Access Control.
 
 - Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it. Decryption is the process of converting an encrypted message back to its original (readable) format. The original message is called the plaintext message.
@@ -70,16 +71,14 @@
 2. [Authentication](https://auth0.com/blog/what-is-broken-authentication/)
 3. [Encryption/Decryption](https://portswigger.net/blog/breaking-encrypted-data-using-burp)
 
-**Tasks:**
-<ol>
-  <li>Try to use Burpsuite and learn how different tools can be used for this purpose</li>
-  <li>Learn the commands</li>
-  <li>Upload the screenshot of the solved lab here</li>
-</ol>
+- **Tasks:**
+    - Try to use Burpsuite and learn how different tools can be used for this purpose
+    - Learn the commands
+    - Upload the screenshot of the solved lab here
 
-**labs to solve**
-- [lab 1](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
-- [lab 2](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter/)
+- **Labs to solve**
+  - [Lab 1](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
+  - [Lab 2](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter/)
 
 ### 5. Metasploit and Wireshark
 
@@ -87,29 +86,26 @@
 - Wireshark is a software tool used to monitor the network traffic through a network interface. It is the most widely used network monitoring tool today. Wireshark is loved equally by system administrators, network engineers, network enthusiasts, network security professionals and black hat hackers. 
 The extent of its popularity is such, that experience with Wireshark is considered as a valuable/essential trait in a computer networking-related professional.
 
-1. [click here for the video of penetration using metasploit and wireshark](https://www.youtube.com/watch?v=kdTKHMkDcgs)
+- **Resources**
+  - [Penetration Testing using Metasploit and Wireshark](https://www.youtube.com/watch?v=kdTKHMkDcgs)
 
-**Tasks:**
-<ol>
-  <li>Watch the video and make a note of the steps</li>
-  <li>Learn the commands</li>
-</ol>
+- **Tasks:**
+  - Watch the video and make a note of the steps
+  - Learn the commands
 
 ### 6. SQL Injection and XSS
 
 - SQL injection, also known as SQLI, is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed. This information may include any number of items, including sensitive company data, user lists or private customer details.
 - Cross-site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
-1. [click here for the video](https://www.youtube.com/watch?v=cx6Xs3F_1Uc)
-2. [click here for more information](https://www.w3schools.com/sql/sql_injection.asp)
 
-**Tasks:**
-<ol>
-  <li>Watch the video and make a note of the steps</li>
-  <li>Learn the commands</li>
-  <li>Solve the burpsuite XSS and SQL injection labs</li>
-</ol>
+- **Resources**
+- [SQL Injection For Beginners - Loi Liang Yang](https://www.youtube.com/watch?v=cx6Xs3F_1Uc)
+- [SQL Injection - W3Schools](https://www.w3schools.com/sql/sql_injection.asp)
 
-
+- **Tasks:**
+  - Watch the video and make a note of the steps
+  - Learn the commands
+  - Solve the burpsuite XSS and SQL injection labs
 
 ## Submissions
 1. Fork this repo
