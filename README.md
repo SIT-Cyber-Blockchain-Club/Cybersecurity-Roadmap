@@ -8,11 +8,10 @@
 3. [Security Features and Vulnerabilities](#3-security-features-and-vulnerabilities)
 4. [Encryption, Authentication, and Access Control](#4-encryption-authentication-and-access-control)
 5. [Metasploit and Wireshark](#5-metasploit-and-wireshark)
-6. >Encryption (Anonsurf) and more
-7. [SQL Injection and XSS](#6-sql-injection-and-xss)
-8. >Free Courses and Certifications
-9. >Controlled Simulation Labs to try pentesting
-
+6. [SQL Injection and XSS](#6-sql-injection-and-xss)
+7. [Controlled Simulation Labs to try pentesting](#Controlled-Simulation-Labs-to-try-pentesting)
+8. >Encryption (Anonsurf) and more
+9. >Free Courses and Certifications
 ---
 
 ### Note
@@ -60,8 +59,12 @@
 <ol>
   <li>Understand the overview and concept</li>
   <li>Try to find out the tools used for these purposes</li>
-  <li>Make a list of the tools and solve access control labs using burpsuite (atleast 2)</li>
+  <li>Make a list of the tools and solve access control labs using burpsuite</li>
 </ol>
+
+**labs to solve**
+- [lab 1](https://portswigger.net/web-security/request-smuggling/lab-basic-te-cl)
+- [lab 2](https://portswigger.net/web-security/os-command-injection/lab-simple)
 
 ### 4. Encryption, Authentication, and Access Control.
 
@@ -90,8 +93,9 @@ The extent of its popularity is such, that experience with Wireshark is consider
   - [Penetration Testing using Metasploit and Wireshark](https://www.youtube.com/watch?v=kdTKHMkDcgs)
 
 - **Tasks:**
-  - Watch the video and make a note of the steps
-  - Learn the commands
+  - Watch the video and make a note of the steps.
+  - Learn the commands.
+  - solve the kioptrix level one and attach the snapshot of captured shell. [Tutorial](https://michaelkoczwara.medium.com/kioptrix-level-1-ad8d91e7ed63)
 
 ### 6. SQL Injection and XSS
 
@@ -105,7 +109,31 @@ The extent of its popularity is such, that experience with Wireshark is consider
 - **Tasks:**
   - Watch the video and make a note of the steps
   - Learn the commands
-  - Solve the burpsuite XSS and SQL injection labs
+  - Upload the md file that you make, attach the snapshots for the same labs that you solve.
+
+**labs to solve:**
+- [lab 1 (sql-injection)](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+- [lab 2 (sql-injection)](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
+- [lab 3 (XSS)](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+
+
+
+### 7. Controlled Simulation Labs to try pentesting
+
+**labs for you to solve for better understanding**
+#### 1. sql-injection labs
+- [lab 1](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle)
+- [lab 2](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
+
+#### 2. XXE labs
+- [lab 1](https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files)
+- [lab 2](https://portswigger.net/web-security/xxe)
+
+#### 3. Authentication
+- [lab 1](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass)
+- [lab 2](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic)
+
+---
 
 ## Submissions
 1. Fork this repo
