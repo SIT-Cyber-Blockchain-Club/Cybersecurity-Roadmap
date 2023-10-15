@@ -1,6 +1,5 @@
 # Cybersecurity-Roadmap
 
-
 ## Index
 
 1. [Linux](#1-linux-operating-system)
@@ -9,14 +8,8 @@
 4. [Encryption, Authentication, and Access Control](#4-encryption-authentication-and-access-control)
 5. [Metasploit and Wireshark](#5-metasploit-and-wireshark)
 6. [SQL Injection and XSS](#6-sql-injection-and-xss)
-7. [Controlled Simulation Labs to try pentesting](#Controlled-Simulation-Labs-to-try-pentesting)
-8. >Encryption (Anonsurf) and more
-9. >Free Courses and Certifications
+7. [Controlled Simulation Labs to try pentesting](#7-controlled-simulation-labs-to-try-pentesting)
 ---
-
-### Note
->SCREENSHOTS INFORMATION
-
 
 ### 1. Linux Operating System
 
@@ -31,7 +24,8 @@
 - **Tasks:**
   - Upload a report about your Linux System, including device specification, network information, and drivers using the Terminal
   - Commands for file management and implement a few commands from the shared resources on an application based task of your choice.
-  - >More Tasks
+
+---
 
 ### 2. Networking/OSI
 
@@ -40,39 +34,43 @@
 - **Resources**
   - [Video resource by Dion Training](https://www.youtube.com/watch?v=QcS0ElIztHE)
   - [Blog by Karthikeyan Natarajan on Medium](https://medium.com/@cryptushack/quick-intro-to-open-systems-interconnection-osi-model-8cfe2cec7ae3) 
-
-- **Materials extra to explore**
- - [TCP and UDP protocols](https://www.freecodecamp.org/news/tag/computer-networking/)
- - [Configure your network in kali machine and learn about them](https://www.techtarget.com/searchsecurity/feature/How-to-configure-and-customize-Kali-Linux)
+  - [TCP and UDP protocols](https://www.freecodecamp.org/news/tag/computer-networking/)
+  - [Configure your network in kali machine and learn about them](https://www.techtarget.com/searchsecurity/feature/How-to-configure-and-customize-Kali-Linux)
 
 - **Tasks:**
   - Upload a report showcasing your usage of Wireshark, capture a few HTTP files and analyse them.
   - See how GET/Request Parameters are processed in insecure communications.
   - In the same report mention some of the networking commands you have read.
 
+---
+
 ### 3. Security Features and Vulnerabilities
 
 - The security measures and techniques used in order to prevent any kind of cyber attacks are the security featurs of that perticular system or sofware. A critical security feature of any technology is the ability to turn it off, undo it, deactivate it, or otherwise separate the harm it might cause from those it might harm.
-[Click here for the content](https://portswigger.net/blog)
 
-**Tasks:**
-<ol>
-  <li>Understand the overview and concept</li>
-  <li>Try to find out the tools used for these purposes</li>
-  <li>Make a list of the tools and solve access control labs using burpsuite</li>
-</ol>
+- **Resources**
+  - [Port-Swigger Blog to read on latest developments](https://portswigger.net/blog)
 
-**labs to solve**
-- [lab 1](https://portswigger.net/web-security/request-smuggling/lab-basic-te-cl)
-- [lab 2](https://portswigger.net/web-security/os-command-injection/lab-simple)
+- **Tasks:**
+  - Understand the overview and concept
+  - Try to find out the tools used for these purposes
+  - Make a list of the tools and solve access control labs using burpsuite</li>
+
+
+- **Labs to solve**
+  - [Lab 1](https://portswigger.net/web-security/request-smuggling/lab-basic-te-cl)
+  - [Lab 2](https://portswigger.net/web-security/os-command-injection/lab-simple)
+
+---
 
 ### 4. Encryption, Authentication, and Access Control.
 
-- Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it. Decryption is the process of converting an encrypted message back to its original (readable) format. The original message is called the plaintext message.
-- authentication is the process of verifying who a user is, while authorization is the process of verifying what they have access to. Authentication collects information from the user or entity in the form of text (e.g., passwords), unstructured data (e.g., image of the user's face), or an access token. Authorization requires a token proving that the entity is authenticated and additional information about the entity to apply access rules
-1. [Access-Control](https://www.prplbx.com/resources/blog/broken-access-control/)
-2. [Authentication](https://auth0.com/blog/what-is-broken-authentication/)
-3. [Encryption/Decryption](https://portswigger.net/blog/breaking-encrypted-data-using-burp)
+- Encryption is the process by which a readable message is converted to an unreadable form to prevent unauthorized parties from reading it. Decryption is the process of converting an encrypted message back to its original (readable) format. The original message is called the plaintext message. Authentication is the process of verifying who a user is, while authorization is the process of verifying what they have access to. Authentication collects information from the user or entity in the form of text (e.g., passwords), unstructured data (e.g., image of the user's face), or an access token. Authorization requires a token proving that the entity is authenticated and additional information about the entity to apply access rules
+
+- **Resources**
+  - [Access-Control](https://www.prplbx.com/resources/blog/broken-access-control/)
+  - [Authentication](https://auth0.com/blog/what-is-broken-authentication/)
+  - [Encryption/Decryption](https://portswigger.net/blog/breaking-encrypted-data-using-burp)
 
 - **Tasks:**
     - Try to use Burpsuite and learn how different tools can be used for this purpose
@@ -83,11 +81,11 @@
   - [Lab 1](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url)
   - [Lab 2](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter/)
 
+---
+
 ### 5. Metasploit and Wireshark
 
-- Metasploit is the world’s leading open-source penetrating framework used by security engineers as a penetration testing system and a development platform that allows to create security tools and exploits. The framework makes hacking simple for both attackers and defenders.
-- Wireshark is a software tool used to monitor the network traffic through a network interface. It is the most widely used network monitoring tool today. Wireshark is loved equally by system administrators, network engineers, network enthusiasts, network security professionals and black hat hackers. 
-The extent of its popularity is such, that experience with Wireshark is considered as a valuable/essential trait in a computer networking-related professional.
+- Metasploit is the world’s leading open-source penetrating framework used by security engineers as a penetration testing system and a development platform that allows to create security tools and exploits. The framework makes hacking simple for both attackers and defenders. Wireshark is a software tool used to monitor the network traffic through a network interface. It is the most widely used network monitoring tool today. Wireshark is loved equally by system administrators, network engineers, network enthusiasts, network security professionals and black hat hackers. The extent of its popularity is such, that experience with Wireshark is considered as a valuable/essential trait in a computer networking-related professional.
 
 - **Resources**
   - [Penetration Testing using Metasploit and Wireshark](https://www.youtube.com/watch?v=kdTKHMkDcgs)
@@ -95,43 +93,46 @@ The extent of its popularity is such, that experience with Wireshark is consider
 - **Tasks:**
   - Watch the video and make a note of the steps.
   - Learn the commands.
-  - solve the kioptrix level one and attach the snapshot of captured shell. [Tutorial](https://michaelkoczwara.medium.com/kioptrix-level-1-ad8d91e7ed63)
+  - Solve the kioptrix level one and attach the snapshot of captured shell.
+    - [Tutorial](https://michaelkoczwara.medium.com/kioptrix-level-1-ad8d91e7ed63)
+
+---
 
 ### 6. SQL Injection and XSS
 
-- SQL injection, also known as SQLI, is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed. This information may include any number of items, including sensitive company data, user lists or private customer details.
-- Cross-site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
+- SQL injection, also known as SQLI, is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed. This information may include any number of items, including sensitive company data, user lists or private customer details. Cross-site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
 
 - **Resources**
-- [SQL Injection For Beginners - Loi Liang Yang](https://www.youtube.com/watch?v=cx6Xs3F_1Uc)
-- [SQL Injection - W3Schools](https://www.w3schools.com/sql/sql_injection.asp)
+  - [SQL Injection For Beginners - Loi Liang Yang](https://www.youtube.com/watch?v=cx6Xs3F_1Uc)
+  - [SQL Injection - W3Schools](https://www.w3schools.com/sql/sql_injection.asp)
 
 - **Tasks:**
   - Watch the video and make a note of the steps
   - Learn the commands
   - Upload the md file that you make, attach the snapshots for the same labs that you solve.
 
-**labs to solve:**
-- [lab 1 (sql-injection)](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
-- [lab 2 (sql-injection)](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
-- [lab 3 (XSS)](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+- **Labs to solve:**
+  - [Lab 1 (SQL-Injection)](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+  - [Lab 2 (SQL-Injection)](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
+  - [Lab 3 (XSS)](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 
-
+---
 
 ### 7. Controlled Simulation Labs to try pentesting
 
-**labs for you to solve for better understanding**
-#### 1. sql-injection labs
-- [lab 1](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle)
-- [lab 2](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
+**Labs for you to solve for better understanding**
 
-#### 2. XXE labs
-- [lab 1](https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files)
-- [lab 2](https://portswigger.net/web-security/xxe)
+1. SQL-Injection Labs
+  - [Lab 1](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle)
+  - [Lab 2](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
 
-#### 3. Authentication
-- [lab 1](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass)
-- [lab 2](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic)
+2. XXE labs
+  - [Lab 1](https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files)
+  - [Lab 2](https://portswigger.net/web-security/xxe)
+
+3. Authentication
+  - [Lab 1](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass)
+  - [Lab 2](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic)
 
 ---
 
