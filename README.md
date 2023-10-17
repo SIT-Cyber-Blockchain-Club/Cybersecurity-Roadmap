@@ -21,6 +21,9 @@
   - [Apache, PostgreSQL, and Proxies](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension)
   - [Scripting](https://www.guru99.com/introduction-to-shell-scripting.html)
 
+- **Extras**
+  - [Linux Basics for Hackers](https://drive.google.com/file/d/1LoWuDMrtC42duaGkg6GUgKkzTrZVUeR1/view?usp=sharing)
+
 - **Tasks:**
   - Upload a report about your Linux System, including device specification, network information, and drivers using the Terminal
   - Commands for file management and implement a few commands from the shared resources on an application based task of your choice.
