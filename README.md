@@ -23,7 +23,7 @@
 
 - **Extras**
   - [Linux Basics for Hackers](https://drive.google.com/file/d/1LoWuDMrtC42duaGkg6GUgKkzTrZVUeR1/view?usp=sharing)
-
+  - [Data Structures Handbook – The Key to Scalable Software](https://www.freecodecamp.org/news/data-structures-the-key-to-scalable-software/)
 - **Tasks:**
   - Upload a report about your Linux System, including device specification, network information, and drivers using the Terminal
   - Commands for file management and implement a few commands from the shared resources on an application based task of your choice.
